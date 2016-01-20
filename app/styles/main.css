@@ -12,3 +12,31 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
 }
+
+.resume-name{
+	font-size : 25px;
+	margin:10px 0px;
+}
+
+.resume-contact{
+	margin:0px 0px 30px 0px;
+}
+
+.resume-contents{
+	margin:10px 15px 30px 15px;
+}
+
+.resume-contents > li{
+	margin:5px;
+}
+
+.resume-exp{
+	margin :0;
+	float : left;
+	font-weight:bold;
+}
+
+.resume-date{
+	float : right;
+	margin : 0;
+}

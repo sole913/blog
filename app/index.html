@@ -16,7 +16,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="Polymer Starter Kit">
-  <title>Polymer Starter Kit</title>
+  <title>Sole Blog</title>
 
   <!-- Place favicon.ico in the `app/` directory -->
 
@@ -83,7 +83,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <iron-icon icon="info"></iron-icon>
             <span>Users</span>
           </a>
-
+          <a data-route="resume" href="{{baseUrl}}resume">
+            <iron-icon icon="assignment-ind"></iron-icon>
+            <span>Resume</span>
+          </a>
           <a data-route="contact" href="{{baseUrl}}contact">
             <iron-icon icon="mail"></iron-icon>
             <span>Contact</span>
@@ -105,12 +108,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
           <!-- Application name -->
           <div class="middle middle-container">
-            <div class="app-name">Polymer Starter Kit</div>
+            <div class="app-name">Sole Blog</div>
           </div>
 
           <!-- Application sub title -->
           <div class="bottom bottom-container">
-            <div class="bottom-title">The future of the web today</div>
+            <div class="bottom-title">Solae's Blog!!!</div>
           </div>
         </paper-toolbar>
 
@@ -125,29 +128,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <my-list></my-list>
 
                 <p>Looking for more Web App layouts? Check out our <a href="https://github.com/PolymerElements/app-layout-templates">layouts</a> collection. You can also <a href="http://polymerelements.github.io/app-layout-templates/">preview</a> them live.</p>
-              </paper-material>
-
-              <paper-material elevation="1">
-                <p>This is another card.</p>
-              </paper-material>
-
-              <paper-material elevation="1">
-                <h1 id="license">License</h1>
-                <p>Everything in this repo is BSD style license unless otherwise specified.</p>
-                <p>Copyright (c) 2015 The Polymer Authors. All rights reserved.</p>
-                <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
-                <ul>
-                <li>Redistributions of source code must retain the above copyright
-                notice, this list of conditions and the following disclaimer.</li>
-                <li>Redistributions in binary form must reproduce the above
-                copyright notice, this list of conditions and the following disclaimer
-                in the documentation and/or other materials provided with the
-                distribution.</li>
-                <li>Neither the name of Google Inc. nor the names of its
-                contributors may be used to endorse or promote products derived from
-                this software without specific prior written permission.</li>
-                </ul>
-                <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
               </paper-material>
             </section>
 
@@ -166,6 +146,99 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <paper-material elevation="1">
                 <h2 class="page-title">User: {{params.name}}</h2>
                 <div>This is {{params.name}}'s section</div>
+              </paper-material>
+            </section>
+
+            <section data-route="resume">
+              <paper-material elevation="1">
+                <h2 class="page-title">Resume</h2>
+				<h3 class="resume-name">SOLAE LEE</h3>
+                <p class="resume-contact">562-331-6416 | sole913@gmail.com</p>
+				
+				<b>SUMMARY</b>
+				<hr>
+				<div class="resume-contents">
+				<li>self-motivated developer who can use many programming language and has very strong programming.</li>
+				<li>Good algorithmic knowledge of machine learning, computer vision and statistical pattern recognition.</li>
+				<li>I have excellent communication skills and ability to work well as part of a team.</li>
+				<li>Able to work with Agile software development method.</li>
+				</div>
+				
+				<b>TECHNICAL SKILLS</b>
+				<hr>
+				<div class="resume-contents">
+				<li>Languages: Java, C/ C++, Python, PHP, R, HTML5, CSS, JavaScript</li>
+				<li>Frameworks: Apache, OpenGL, OpenCV, scikit-learn</li>
+				<li>Open Source: Hadoop, MapReduce</li>
+				<li>Databases: MySQL, Oracle</li>
+				<li>Tools: Visual Studio (6.0 to 2013), Eclipse, Android IDE, SVN</li>
+				</div>
+
+				<b>WORK EXPERIENCE</b>
+				<hr>
+				<span class="resume-exp">Electronics and Telecommunications Research Institute - Intern</span>
+				<span class="resume-date">Jun 2015 – Aug 2015</span>
+				<br>
+				<div class="resume-contents">
+				<li>Developed Skeleton View Software using C++, OpenGL.</li>
+				<li>Worked with Agile software development method.</li>
+				<li>Modularized Skeleton View program to be used in other program.</li>
+				</div>
+				<span class="resume-exp">Jiransoft Co., Ltd. – Intern</span>
+				<span class="resume-date">Oct 2015 - Nov 2015</span>
+				<br>
+				<div class="resume-contents">
+				<li>Developed File Transmission Web application using LAMP Stack.</li>
+				<li>Designed and developed Android Application using Android IDE, JAVA. The App recommends user’s mobile membership card using GPS and BLE Beacon. </li>
+				</div>
+
+				<b>ACADEMIC PROJECTS</b>
+				<hr>
+				<p class="resume-exp">App recommendation Widget</p>
+				<p class="resume-date">Oct 2015 - Nov 2015</p>
+				<br>
+				<div class="resume-contents">
+				<li>Recommended user’s application that user will execute.</li>
+				<li>Used user’s app usage log and Maximum a Posteriori method.</li>
+				<li>Developed with Android Studio, JAVA.</li>
+				</div>
+				<p class="resume-exp">Big Data Analysis</p>
+				<p class="resume-date">Sep 2015 - Nov 2015</p>
+				<br>
+				<div class="resume-contents">
+				<li>Analyzed Tashu Data that is usage of a self-service public bike rental system using R and Python.</li>
+				<li>Analyzed Fitbit Data using python in Hadoop framework, classified and clustered user.</li>
+				<li>Analyzed Movie rate Data using R and calculated similarity for movie recommendation.</li>
+				</div>
+				<p class="resume-exp">Mobile Gift Card Manager</p>
+				<p class="resume-date">May 2015 - Jun 2015</p>
+				<br>
+				<div class="resume-contents">
+				<li>Developed Android Application that manage mobile gift card.</li>
+				<li>Automatically adding mobile gift card when user captures barcode image using tesseract OCR.</li> 
+				</div>
+
+				<b>EDUCATION</b>
+				<hr>
+				<span class="resume-exp">POSTECH</span>
+				<span class="resume-date">Mar 2016 - Now</span>
+				<br>
+				<div class="resume-contents">
+				Master’s in Computer Science and Engineering 
+				</div>
+				<span class="resume-exp">CHUNGNAM NATIONAL UNIVERSITY</span>
+				<span class="resume-date">Mar 2012 - Feb 2016</span>
+				<br>
+				<div class="resume-contents">
+				Bachelor of Computer Science and Engineering 
+				</div>
+
+				<b>ADDITIONAL INFORMATION</b>
+				<hr>
+				<div class="resume-contents">
+				<li>Awarded "Second Prize" at CHUNGNAM NATIONAL UNIVERSITY’s Programming Contest.</li>
+				<li>Awarded "Excellence Award" at CHUNGNAM NATIONAL UNIVERSITY’s Software Contest for Mobile Membership Card Manager App.</li>
+				<li>Awarded "Encouragement Award" at CHUNGNAM NATIONAL UNIVERSITY’ Software Contest for Mobile Gift Card Manager App.</li>
               </paper-material>
             </section>
 
